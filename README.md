@@ -1,8 +1,12 @@
-for setting the airflow open your terminal and go to the path you have put your airflow_ssh.yaml and run this commad on your terminal: 
-docker-compose -f airflow_ssh.yaml up --build -d
+# Apache Airflow Setup using Docker Compose
 
-if everything is not working well go to the path again and run this code:
-docker-compose -f airflow_ssh.yaml down
+This guide helps you set up Apache Airflow using a Docker Compose configuration file (`airflow_ssh.yaml`).
 
+## Getting Started
 
-Have fun!
+### Step 1: Navigate to Your Airflow Directory
+
+Open your terminal and go to the path where you have placed the `airflow_ssh.yaml` file:
+
+```bash
+cd /path/to/your/airflow/project
