@@ -13,11 +13,11 @@ cd /path/to/your/airflow/project
 
 ### step2: run this in your terminals
 ```bash
-docker-compose -f airflow_ssh.yaml up --build -d
+docker-compose -f airflow_ssh.yaml up --build -d     ‍‍‍```
 
 ### If everything goes wrong then run this command:
 ```bash
-docker-compose -f airflow_ssh.yaml down
+docker-compose -f airflow_ssh.yaml down```
 
 ### Then you can make the Airflow runing on your docker by repeating the step 1:
 ##Have Fun!
