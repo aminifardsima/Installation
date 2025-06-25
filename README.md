@@ -10,6 +10,7 @@ Open your terminal and go to the path where you have placed the `airflow_ssh.yam
 
 ```bash
 cd /path/to/your/airflow/project
+```
 
 ### step2: run this in your terminals
 ```bash
