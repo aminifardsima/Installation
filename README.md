@@ -3,6 +3,7 @@
 This guide helps you set up Apache Airflow using a Docker Compose configuration file (`airflow_ssh.yaml`).
 
 ## Getting Started
+### make sure your docker hub is runing and give adequate ram to it.
 
 ### Step 1: Navigate to Your Airflow Directory
 
