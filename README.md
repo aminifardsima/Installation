@@ -22,5 +22,8 @@ docker-compose -f airflow_ssh.yaml up --build -d     ‍‍‍
 docker-compose -f airflow_ssh.yaml down
 ```
 
-### Then you can make the Airflow runing on your docker by repeating the step 1:
+### Then you can make the Airflow runing on your docker by repeating the step 1 and Step 2:
 ### Have Fun!
+
+
+
