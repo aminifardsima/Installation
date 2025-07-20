@@ -28,7 +28,9 @@ docker-compose -f airflow_ssh.yaml down
 
 
 
-
+```
+docker compose -f airflow_ssh.yaml down --volumes --remove-orphans
+```
 
 helpful commands:
 ```bash
