@@ -28,3 +28,12 @@ docker-compose -f airflow_ssh.yaml down
 
 
 
+
+
+helpful commands:
+```bash
+docker compose -f airflow_ssh.yaml up --build airflow-init
+```
+
+
+
