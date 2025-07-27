@@ -4,7 +4,13 @@ git status
 git stash
 
 git pull
+
+to make a new branch
+
+```
 git checkout -b delete_matomo_connection
+```
+
 git branch
 
 
