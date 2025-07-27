@@ -29,9 +29,15 @@ git checkout -b delete_matomo_connection
 in order to just add a dag named matomo_connection_test.py
 ```
 git add dags/matomo_connection_test.py
+```
+```
 git status
+```
+```
+git commit -m "Delete matomo connection"```
 
-git commit -m "Delete matomo connection"
+```
+```
 git push origin delete_matomo_connection
 
 
