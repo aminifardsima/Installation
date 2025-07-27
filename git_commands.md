@@ -34,7 +34,7 @@ git add dags/matomo_connection_test.py
 git status
 ```
 ```
-git commit -m "Delete matomo connection"```
+git commit -m "Delete matomo connection"
 
 ```
 ```
