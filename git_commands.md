@@ -1,7 +1,9 @@
 ```cd fra-controlling-airflow``` 
 
 in order to see the branches already exist there
-```git branch```
+```
+git branch
+```
 
 in order to switch to the main branch
 ```
