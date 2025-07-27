@@ -1,14 +1,15 @@
-985  git branch
-  986  git checkout main
-  987  git status
-  988  git stash
-  989  git status
-  990  git pull
-  991  git checkout -b delete_matomo_connection
-  992  git branch
-  993  rm dags/matomo_connection_test.py
-  994  git status
-  995  git add dags/matomo_connection_test.py
-  996  git status
-  997  git commit -m "Delete matomo connection"
-  998  git push origin delete_matomo_connection
+git branch
+git checkout main
+git status
+git stash
+
+git pull
+git checkout -b delete_matomo_connection
+git branch
+
+
+git add dags/matomo_connection_test.py
+git status
+
+git commit -m "Delete matomo connection"
+git push origin delete_matomo_connection
