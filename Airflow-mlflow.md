@@ -355,7 +355,7 @@ USER airflow
 
 ```
 
-If you want to install pandas and sqlalchamy in the airflow
+If you want to install pandas and sqlalchamy in the airflow `Dockerfile` is:
 ```
 FROM apache/airflow:2.10.5
 
