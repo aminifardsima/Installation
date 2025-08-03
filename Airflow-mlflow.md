@@ -9,7 +9,7 @@ version: '3.8'
 
 services:
   mlflow:
-    image: ghcr.io/mlflow/mlflow:latest
+    build: .    
     container_name: mlflow
     ports:
       - "5000:5000"
@@ -315,5 +315,9 @@ networks:
   mlflow-airflow-net:
     external: true
 ```
+
+
+then we bring the airflow up 
+```docker compose -f airflow_ssh.yaml up --build -d```
 
 
