@@ -51,7 +51,7 @@ RUN pip install pymysql
 
 
 
-Then we make airflwo docker compose.yaml file
+Then we make `airflow_ssh.yaml` file
 
 
 ```
