@@ -38,6 +38,19 @@ then create a dtabase in mysql nameit mlflow
 #mypass  enter your password for your mysql database
 CREATE DATABASE mlflowdb;
 ```
+then in the same folder that we have made our mlflow.yaml file we make a file we name it Dockerfile then we put this information in it:
+
+
+
+```
+FROM ghcr.io/mlflow/mlflow:latest
+
+RUN pip install pymysql
+
+```
+
+
+
 Then we make airflwo docker compose.yaml file
 
 
@@ -319,5 +332,10 @@ networks:
 
 then we bring the airflow up 
 ```docker compose -f airflow_ssh.yaml up --build -d```
+
+
+then inside the mlflow directory
+
+```docker compose -f mlflow.yaml up --build -d```
 
 
