@@ -44,3 +44,7 @@ docker compose -f airflow_ssh.yaml up --build airflow-init
 ```
  docker compose -f airflow_ssh.yaml --build -d up airflow-init
 ```
+
+```
+docker compose -f airflow_ssh.yaml up --build -d
+```
