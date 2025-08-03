@@ -38,7 +38,7 @@ then create a dtabase in mysql nameit mlflow
 #mypass  enter your password for your mysql database
 CREATE DATABASE mlflowdb;
 ```
-then in the same folder that we have made our mlflow.yaml file we make a file we name it Dockerfile then we put this information in it:
+then in the same folder that we have made our mlflow.yaml file we make a file we name it `Dockerfile` then we put this information in it:
 
 
 
