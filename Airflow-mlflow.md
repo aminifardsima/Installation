@@ -2,7 +2,7 @@ mlflow with airflow on seperate docker file.
 ```
 docker network create mlflow-airflow-net
 ```
-create ```docker_compose_mlflow.yaml``` file
+create ```mlflow.yaml``` file
 
 ```
 version: '3.8'
