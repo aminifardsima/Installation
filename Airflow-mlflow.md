@@ -92,6 +92,7 @@ x-airflow-common:
     - /Users/simamohammadaminifard/.ssh:/home/airflow/.ssh:ro
     - /Users/simamohammadaminifard/dags:/opt/airflow/dags
     - /Users/simamohammadaminifard/data:/opt/airflow/data
+    - /Users/simamohammadaminifard/data:/mlflow/artifacts
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
