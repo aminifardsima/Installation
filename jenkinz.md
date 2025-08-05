@@ -44,9 +44,9 @@ FROM jenkins/jenkins:lts
 
 USER root
 
-# Install Python and Docker CLI (optional but helpful)
+# نصب Python و ابزارها، فقط یک بار و همه با هم!
 RUN apt-get update && \
-    apt-get install -y python3 python3-pip docker.io && \
+    apt-get install -y python3 python3-pip python3-venv docker.io && \
     usermod -aG docker jenkins
 
 USER jenkins
