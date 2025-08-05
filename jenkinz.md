@@ -208,3 +208,20 @@ print("پیش‌بینی مدل برتر روی داده جدید:", prediction)
 
 in the build section for prediction in jenkins in the shell section we type:
 
+```
+cd /myproject
+
+# ساخت venv (اگر برای اولین بار اجرا می‌کنی)
+python3 -m venv .venv
+
+# فعال‌سازی
+. .venv/bin/activate
+
+# نصب پکیج‌ها
+pip install -r requirements.txt
+
+# اجرای کد
+python predict.py
+
+```
+
