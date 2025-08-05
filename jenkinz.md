@@ -37,6 +37,22 @@ then in the terminal we put ` docker logs jenkins`
 then we copy and paste the password for initializing
 
 
+
+make  a `Dockerfile`
+```
+FROM jenkins/jenkins:lts
+
+USER root
+
+# Install Python and Docker CLI (optional but helpful)
+RUN apt-get update && \
+    apt-get install -y python3 python3-pip docker.io && \
+    usermod -aG docker jenkins
+
+USER jenkins
+```
+
+
 ```
 docker compose -f jenkinz.ymal up --build -d
 ```
