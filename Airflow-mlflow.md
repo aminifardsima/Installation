@@ -576,7 +576,19 @@ to bring doown everything:
  
 
 docker compose -f mlflow.yaml dowon
-```  
+```
+
+
+
+
+
+
+
+pay attention that we should have a database with this name in our mysql database
+```
+mlflowdb
+
+```
 
 
 
