@@ -570,3 +570,13 @@ with DAG(
 ```
 
 
+
+to bring doown everything:
+```
+ 
+
+docker compose -f mlflow.yaml dowon
+```  
+
+
+
