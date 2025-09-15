@@ -50,8 +50,4 @@ docker compose -f airflow_ssh.yaml up --build -d
 ```
 
 
-if we want to install amd64 on macbook then we make our image by this code:
-```
-docker buildx create --use
-docker buildx build --platform linux/amd64 -t airflow-hyper:amd64 .
-```
+
